@@ -1,0 +1,22 @@
+{
+  "name": "mini-bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:mumbai": "hardhat run scripts/deploy.ts --network mumbai",
+    "deploy:baseGoeli": "hardhat run scripts/deploy.ts --network baseGoeli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^1.0.0",
+    "hardhat": "^2.18.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
